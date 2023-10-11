@@ -1,0 +1,7 @@
+{
+  "name": "parcel_playground",
+  "packageManager": "yarn@3.6.4",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
