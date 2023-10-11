@@ -1,10 +1,3 @@
-interface ESModule {
-  hot: {
-    accept: (callback: () => void) => void;
-  };
-}
-
-declare const module: ESModule;
 let count = 0;
 
 function handleClick() {
@@ -20,4 +13,4 @@ if (module.hot) {
 
 document.body.addEventListener('click', handleClick);
 
-console.log('Hello World!');
+console.log('Hello World!!');
