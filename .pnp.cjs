@@ -28,6 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@parcel/core", "npm:2.9.3"],\
             ["parcel", "virtual:0d7e173fb3c995b647f357022312a855885040f8455194f094f27d9de80083c15d044cba1e5f163b19465d0298a1e1629adc3ce3b8735a905480c424bb28d48e#npm:2.9.3"]\
           ],\
           "linkType": "SOFT"\
@@ -3093,6 +3094,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["get-port", "npm:4.2.0"]\
           ],\
           "packagePeers": [\
+            "@parcel/core",\
             "@types/parcel__core"\
           ],\
           "linkType": "HARD"\
@@ -3103,6 +3105,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["parcel_playground", "workspace:."],\
+            ["@parcel/core", "npm:2.9.3"],\
             ["parcel", "virtual:0d7e173fb3c995b647f357022312a855885040f8455194f094f27d9de80083c15d044cba1e5f163b19465d0298a1e1629adc3ce3b8735a905480c424bb28d48e#npm:2.9.3"]\
           ],\
           "linkType": "SOFT"\
