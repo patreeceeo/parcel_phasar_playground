@@ -1,3 +1,10 @@
+interface ESModule {
+  hot: {
+    accept: (callback: () => void) => void;
+  };
+}
+
+declare const module: ESModule;
 let count = 0;
 
 function handleClick() {
