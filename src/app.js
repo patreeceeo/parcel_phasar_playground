@@ -1,8 +1,16 @@
 let count = 0;
 
-document.body.addEventListener('click', () => {
+function handleClick() {
   count++;
   console.log(count);
-});
+}
 
-console.log('Hello World!!');
+if (module.hot) {
+  module.hot.accept(() => {
+    document.body.removeEventListener('click', handleClick);
+  });
+}
+
+document.body.addEventListener('click', handleClick);
+
+console.log('Hello World!');
